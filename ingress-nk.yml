@@ -14,7 +14,7 @@ metadata:
     alb.ingress.kubernetes.io/success-codes: "200"
     alb.ingress.kubernetes.io/unhealthy-threshold-count: "2"
     #Make sure our SSL Cert and Cluster is in same AWS Account.
-    alb.ingress.kubernetes.io/certificate-arn: 'arn:aws:acm:us-east-1:688567302884:certificate/8a8afc95-ecf9-484b-b175-f4372669ce00'
+    alb.ingress.kubernetes.io/certificate-arn: 'arn:aws:acm:us-east-2:688567302884:certificate/482f7015-9966-46a7-9a15-1d4787da93d2'
 spec:
   ingressClassName: alb
   tls:
