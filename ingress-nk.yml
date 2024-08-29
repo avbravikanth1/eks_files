@@ -22,7 +22,7 @@ spec:
     - "ravitest.xyz"
     secretName: my-tls-secret
   rules:
-  - host: k8sb25.xyz
+  - host: ravitest.xyz
     http:
       paths:
         - path: /
